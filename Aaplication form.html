@@ -1,0 +1,246 @@
+<html>
+<head>
+<title>Student Admission Portal</title>
+</head>
+
+<body bgcolor="lightblue">
+
+<center>
+
+<table width="90%" bgcolor="white">
+<tr>
+<td align="center">
+<font color="blue" size="7"><b>STUDENT ADMISSION PORTAL</b></font>
+<br><br>
+<font size="4">
+Create your account and begin your academic journey with us!
+</font>
+</td>
+</tr>
+</table>
+
+<br>
+
+<form>
+
+<table width="100%" cellpadding="10">
+
+<tr>
+
+<!-- Personal Information -->
+<td width="50%" valign="top">
+
+<table border="1" width="100%" cellpadding="10" bgcolor="#EAF4FF">
+
+<tr bgcolor="#2196F3">
+<th colspan="2">
+<font color="white">Personal Information</font>
+</th>
+</tr>
+
+<tr>
+<td>Full Name</td>
+<td><input type="text"></td>
+</tr>
+
+<tr>
+<td>Email Address</td>
+<td><input type="email"></td>
+</tr>
+
+<tr>
+<td>Mobile Number</td>
+<td><input type="tel"></td>
+</tr>
+
+<tr>
+<td>Date of Birth</td>
+<td><input type="date"></td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<input type="radio" name="gender"> Other
+</td>
+</tr>
+
+<tr>
+<td>Address</td>
+<td>
+<textarea rows="4" cols="30"></textarea>
+</td>
+</tr>
+
+</table>
+
+</td>
+
+<!-- Education Details -->
+<td width="50%" valign="top">
+
+<table border="1" width="100%" cellpadding="10" bgcolor="#F0FFF0">
+
+<tr bgcolor="#4CAF50">
+<th colspan="2">
+<font color="white">Education Details</font>
+</th>
+</tr>
+
+<tr>
+<td>Course Interested In</td>
+<td>
+<input type="checkbox"> BSC
+<input type="checkbox"> BCA
+<br><br>
+<input type="checkbox"> BCOM
+<input type="checkbox"> BBA
+</td>
+</tr>
+
+<tr>
+<td>Year of Study</td>
+<td>
+<input type="radio" name="year"> 1st Year
+<br>
+<input type="radio" name="year"> 2nd Year
+<br>
+<input type="radio" name="year"> 3rd Year
+</td>
+</tr>
+
+<tr>
+<td>Department</td>
+<td>
+<select>
+<option>--Select Department--</option>
+<option>Computer Science</option>
+<option>Commerce</option>
+<option>Management</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Previous Qualification</td>
+<td>
+<select>
+<option>Higher Secondary</option>
+<option>Diploma</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Percentage</td>
+<td><input type="text"></td>
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+<tr>
+
+<!-- Account Information -->
+<td valign="top">
+
+<table border="1" width="100%" cellpadding="10" bgcolor="#F8F0FF">
+
+<tr bgcolor="#9C27B0">
+<th colspan="2">
+<font color="white">Account Information</font>
+</th>
+</tr>
+
+<tr>
+<td>Username</td>
+<td><input type="text"></td>
+</tr>
+
+<tr>
+<td>Password</td>
+<td><input type="password"></td>
+</tr>
+
+<tr>
+<td>Confirm Password</td>
+<td><input type="password"></td>
+</tr>
+
+</table>
+
+</td>
+
+<!-- Upload Details -->
+<td valign="top">
+
+<table border="1" width="100%" cellpadding="10" bgcolor="#FFF0F0">
+
+<tr bgcolor="#F44336">
+<th colspan="2">
+<font color="white">Upload & Other Details</font>
+</th>
+</tr>
+
+<tr>
+<td>Upload Photo</td>
+<td><input type="file"></td>
+</tr>
+
+<tr>
+<td>How did you know about us?</td>
+<td>
+<select>
+<option>--Select Option--</option>
+<option>Internet</option>
+<option>Friend</option>
+<option>Advertisement</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Scholarship Required?</td>
+<td>
+<input type="radio" name="scholarship"> Yes
+<input type="radio" name="scholarship"> No
+</td>
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+<br>
+
+<input type="submit" value="Submit Registration">
+<input type="reset" value="Reset Form">
+<input type="button" value="Custom Button">
+
+</form>
+
+<br><br>
+
+Already have an account?
+<a href="#" onclick="loginSuccess()">Login Here</a>
+
+<script>
+function loginSuccess()
+{
+    alert("Login Successful!\nWelcome to the Student Admission Portal.");
+}
+</script>
+
+</center>
+
+</body>
+</html>
